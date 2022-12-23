@@ -7,6 +7,7 @@ import './Icon.css';
 const Icon = () => {
     return (
         <div className='icons-container'>
+            {/* <span className="line-hight">  </span> */}
             <p className="icon">
                 <Link to = "/" className='icon-link'>
                    <BsGithub/>
@@ -27,6 +28,7 @@ const Icon = () => {
                    <SiGmail/>
                 </Link>
             </p>
+            <span className="line-hight">  </span>
         </div>
     );
 };

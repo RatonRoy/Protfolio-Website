@@ -1,7 +1,16 @@
+
 .icons-container{
     position: fixed;
     left: 5%;
     top: 35%;
+}
+.line-hight{
+    width: 2px;
+    height: 8rem;
+    /* background-color: rgb(9, 122, 9); */
+    background-color: rgb(171, 195, 240);
+    display: inline-block;
+    margin-left: 1rem;
 }
 .icon{
     margin-top: 0.5rem;

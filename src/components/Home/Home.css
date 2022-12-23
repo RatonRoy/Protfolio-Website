@@ -6,6 +6,7 @@
 }
 .article-container{
     width: 60%;
+    margin-top: 5rem;
 }
 .name-title{
     color: rgb(9, 112, 9);
@@ -59,10 +60,11 @@
     font-size: 1.5rem;
     display: inline-block;
     padding: 1rem 1.7rem;
-    cursor: pointer;
+    /* cursor: pointer; */
     letter-spacing: 1px;
     font-weight: 500;
     border-radius: 0.5rem;
+    text-decoration: none;
 }
 .resume-btn{
  margin-right: 1rem;
@@ -77,9 +79,13 @@
     background-color: white;
 }
 .about-btn{
-    color:rgb(9, 112, 9);
+    /* color:rgb(9, 112, 9); */
     transition: all ease 0.3s;
+    border: 2px solid rgb(9, 112, 9);
+    color: white;
 }
 .about-btn:hover{
-    transform: scale(1.1);
+    /* transform: scale(1.1); */
+    background-color: rgb(9, 112, 9);
+    /* border: none; */
 }
